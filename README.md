@@ -8,7 +8,7 @@ Strawman:
   "imp": {
     "ext": {
       "dooh": {
-        "venuetypeid": 1234
+        "venuetypeid": 1234,
         "measurement": {
           "provider_id": 1,
           "data_sources": [],
