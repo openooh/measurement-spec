@@ -10,9 +10,9 @@ Strawman:
       "dooh": {
         "venuetypeid": 1234
         "measurement": {
-          "provider_id": 1, // provider id to be stored in a CSV in this github repo, 1 = GeoPath?, -1 = self
-          "data_sources": [] // list of additional data sources that may have been used
-          "adjustments": [3] // enumeration of potential adjustments
+          "provider_id": 1,
+          "data_sources": [],
+          "adjustments": [3],
           "imp_x": 12.3433
         }
     }
