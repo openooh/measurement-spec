@@ -3,7 +3,7 @@ Specification for how to communicate measurement information
 
 Strawman:
 
-```
+```json
 {
   "imp": {
     "ext": {
