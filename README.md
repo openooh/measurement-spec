@@ -1,5 +1,5 @@
 # measurement-spec
-Specification for how to communicate measurement information
+DRAFT strawman proposal for a pecification for how to communicate measurement information
 
 Strawman:
 
