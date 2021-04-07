@@ -7,13 +7,13 @@ Strawman:
 {
   "imp": {
     "ext": {
-      "dooh": {
+      "dooh": { // can we land grab "dooh" as an extension namespace?
         "venuetypeid": 1234,
         "measurement": {
+          "imp_x": 12.3433
           "provider": "measurement.co", // can also be the publisher if self-rated
           "data_sources": ["highway-data.org","ticket-vendor.com"],
           "adjustments": [3],
-          "imp_x": 12.3433
         }
     }
   }    
@@ -21,6 +21,8 @@ Strawman:
 ```
 
 ## Key Concepts:
+
+`imp_x` - estimated number of individuals potentially exposed to an ad, should a bidder win this auction
 
 `provider` - reference a registry with info like name, website or reverse TLD similarly to how we might identify pubishers?
 
